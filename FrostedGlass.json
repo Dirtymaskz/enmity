@@ -1,63 +1,56 @@
 {
   "name": "FrostedGlass",
-  "version": "1.4",
-  "description": "Original BetterDiscord theme by Gibbu — Enmity port (fully-height wallpaper)",
+  "version": "1.5",
+  "description": "Original BetterDiscord theme by Gibbu — Enmity port (chat wallpaper fixed)",
   "color": "#000000",
 
   "authors": [
     { "name": "mxdhav", "id": "757530324686340197" }
   ],
 
-  /* ─────────── THEME COLOUR MAP ─────────── */
   "theme_color_map": {
-    "HEADER_PRIMARY":   ["#FBFBFB", "#060607"],
+    "HEADER_PRIMARY": ["#FBFBFB", "#060607"],
     "HEADER_SECONDARY": ["#B6B6B6", "#4F5660"],
 
-    "TEXT_NORMAL":      ["#FBFBFB", "#2E3338"],
-    "TEXT_MUTED":       ["#B6B6B6", "#747F8D"],
+    "TEXT_NORMAL": ["#FBFBFB", "#2E3338"],
+    "TEXT_MUTED": ["#B6B6B6", "#747F8D"],
 
-    "INTERACTIVE_NORMAL":  ["#C8C8C8", "#4F5660"],
-    "INTERACTIVE_HOVER":   ["#DCDDDE", "#2E3338"],
-    "INTERACTIVE_ACTIVE":  ["#FFFFFF", "#060607"],
-    "INTERACTIVE_MUTED":   ["#747474", "#C7CCD1"],
+    "INTERACTIVE_NORMAL": ["#C8C8C8", "#4F5660"],
+    "INTERACTIVE_HOVER": ["#DCDDDE", "#2E3338"],
+    "INTERACTIVE_ACTIVE": ["#FFFFFF", "#060607"],
+    "INTERACTIVE_MUTED": ["#747474", "#C7CCD1"],
 
-    /* OPAQUE panels (guild list, channel list, headers…) */
-    "BACKGROUND_PRIMARY":         ["#141414", "#FFFFFF"],
-    "BACKGROUND_SECONDARY":       ["#111111", "#F2F3F5"],
-    "BACKGROUND_SECONDARY_ALT":   ["#0E0E0E", "#EBEDEF"],
-    "BACKGROUND_TERTIARY":        ["#0E0E0E", "#E3E5E8"],
-    "BACKGROUND_ACCENT":          ["#292929", "#747F8D"],
-    "BACKGROUND_FLOATING":        ["#090909", "#FFFFFF"],
-    "BACKGROUND_MOBILE_PRIMARY":  ["#141414", "#F8F9F9"],
-    "BACKGROUND_MOBILE_SECONDARY":["#111111", "#FFFFFF"],
+    "BACKGROUND_PRIMARY": ["#141414", "#FFFFFF"],
+    "BACKGROUND_SECONDARY": ["#111111", "#F2F3F5"],
+    "BACKGROUND_SECONDARY_ALT": ["#0E0E0E", "#EBEDEF"],
+    "BACKGROUND_TERTIARY": ["#0E0E0E", "#E3E5E8"],
+    "BACKGROUND_ACCENT": ["#292929", "#747F8D"],
+    "BACKGROUND_FLOATING": ["#090909", "#FFFFFF"],
+    "BACKGROUND_MOBILE_PRIMARY": ["#141414", "#F8F9F9"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#111111", "#FFFFFF"],
     "BACKGROUND_NESTED_FLOATING": ["#111111", "#FFFFFF"],
 
-    /* Translucent layers that should reveal the wallpaper */
-    "CHAT_BACKGROUND":            ["rgba(0,0,0,0.35)", "#FFFFFF"],
+    "CHAT_BACKGROUND": ["rgba(0,0,0,0.35)", "#FFFFFF"],
     "CHANNELTEXTAREA_BACKGROUND": ["rgba(0,0,0,0.35)", "#EBEDEF"],
 
-    /* message & element highlights */
-    "BACKGROUND_MESSAGE_HOVER":     ["rgba(255,255,255,0.02)", "#FFFFFF"],
-    "BACKGROUND_MODIFIER_HOVER":    ["rgba(255,255,255,0.02)", "hsla(214,9.9%,50.4%,0.08)"],
-    "BACKGROUND_MODIFIER_ACTIVE":   ["rgba(255,255,255,0.03)", "hsla(214,9.9%,50.4%,0.16)"],
+    "BACKGROUND_MESSAGE_HOVER": ["rgba(255,255,255,0.02)", "#FFFFFF"],
+    "BACKGROUND_MODIFIER_HOVER": ["rgba(255,255,255,0.02)", "hsla(214,9.9%,50.4%,0.08)"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["rgba(255,255,255,0.03)", "hsla(214,9.9%,50.4%,0.16)"],
     "BACKGROUND_MODIFIER_SELECTED": ["rgba(255,255,255,0.04)", "hsla(214,9.9%,50.4%,0.24)"],
-    "BACKGROUND_MODIFIER_ACCENT":   ["rgba(255,255,255,0.06)", "hsla(240,7.7%,2.5%,0.08)"],
+    "BACKGROUND_MODIFIER_ACCENT": ["rgba(255,255,255,0.06)", "hsla(240,7.7%,2.5%,0.08)"],
 
-    /* scrollbars */
     "SCROLLBAR_THIN_THUMB": ["#292929", "hsla(217,7.6%,33.5%,0.3)"],
     "SCROLLBAR_THIN_TRACK": ["transparent", "hsla(0,0%,0%,0)"],
     "SCROLLBAR_AUTO_THUMB": ["#292929", "#CCCCCC"],
     "SCROLLBAR_AUTO_TRACK": ["rgba(0,0,0,0.1)", "#F2F2F2"],
 
-    "CHANNEL_ICON":     ["#B6B6B6", "#6A7480"],
+    "CHANNEL_ICON": ["#B6B6B6", "#6A7480"],
     "CHANNELS_DEFAULT": ["#B6B6B6", "#6A7480"],
-
     "KEYBOARD": ["#0F0F0F", "#FFFFFF"]
   },
 
-  /* ─────────── LEGACY COLOUR TOKENS ─────────── */
   "colours": {
-    "PRIMARY_DARK":     "#747474",
+    "PRIMARY_DARK": "#747474",
     "PRIMARY_DARK_100": "#FFFFFF",
     "PRIMARY_DARK_200": "#FFFFFF",
     "PRIMARY_DARK_300": "#B6B6B6",
@@ -71,10 +64,9 @@
     "PRIMARY_DARK_900": "#090909"
   },
 
-  /* ─────────── WALLPAPER ─────────── */
   "background": {
     "blur": 4,
-    "url": "http://grady-chen.com/frostedglass.png",
+    "url": "https://i.imgur.com/dECcZwk.jpg",
     "alpha": 0.88
   }
 }
